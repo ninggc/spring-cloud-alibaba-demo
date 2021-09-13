@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: sentinel-demo-a
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        server-addr: discovery:8848
+        username: nacos
+        password: 8lu85DphhS8b
+        namespace: spring-cloud-alibaba-demo
+        group: DEFAULT_GROUP
+      config:
+        enabled: false
