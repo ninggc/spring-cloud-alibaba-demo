@@ -7,7 +7,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        enabled: true
+        enabled: false
         server-addr: discovery:8848
         username: nacos
         password: 8lu85DphhS8b
@@ -15,3 +15,7 @@ spring:
         group: DEFAULT_GROUP
       config:
         enabled: false
+    sentinel:
+      eager: true
+      transport:
+        dashboard: sentinel-dashboard:8858
