@@ -24,10 +24,6 @@
         <spring-boot.version>2.3.2.RELEASE</spring-boot.version>
     </properties>
 
-    <modules>
-        <module>sentinel-demo</module>
-    </modules>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -49,7 +45,16 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
+        <dependency>
+            <artifactId>lombok</artifactId>
+            <groupId>org.projectlombok</groupId>
+        </dependency>
     </dependencies>
+
+    <modules>
+        <module>sentinel-demo</module>
+        <module>gateway-demo</module>
+    </modules>
 
     <build>
         <plugins>
