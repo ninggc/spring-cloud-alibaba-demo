@@ -1,0 +1,4 @@
+spring:
+  rabbitmq:
+    addresses: rabbitmq:5672
+#    publisher-confirm-type:

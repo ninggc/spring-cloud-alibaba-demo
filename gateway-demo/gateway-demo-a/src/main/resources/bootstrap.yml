@@ -8,9 +8,9 @@ spring:
     nacos:
       discovery:
         enabled: true
-        server-addr: discovery:8848
-        username: nacos
-        password: 8lu85DphhS8b
+        server-addr: 159.75.15.111:8848
+#        username: nacos
+#        password: 8lu85DphhS8b
         namespace: spring-cloud-alibaba-demo
         group: DEFAULT_GROUP
       config:

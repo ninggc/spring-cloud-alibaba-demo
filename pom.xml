@@ -27,6 +27,7 @@
     <modules>
         <module>sentinel-demo</module>
         <module>gateway-demo</module>
+        <module>rabbitmq-demo</module>
     </modules>
 
     <dependencies>
